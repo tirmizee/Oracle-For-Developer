@@ -4,7 +4,7 @@
 
 SELECT * FROM V$INSTANCE
 
-# Tricker Aotu Generate ID
+# Tricker Aotu Generate ID For v11g
 
 create or replace TRIGGER  "INSERT_ROLE"
 
