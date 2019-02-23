@@ -26,3 +26,7 @@ create or replace TRIGGER  "INSERT_ROLE"
         START WITH 1
         INCREMENT BY 1
         CACHE 20;
+
+# Get All Sequence 
+
+    SELECT * FROM dba_sequences WHERE sequence_owner = 'ORGANIZATION';
