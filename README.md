@@ -30,3 +30,6 @@ create or replace TRIGGER  "INSERT_ROLE"
 # Get All Sequence 
 
     SELECT * FROM dba_sequences WHERE sequence_owner = 'ORGANIZATION';
+    
+#  dbms_output.put_line
+    SET SERVEROUTPUT ON
