@@ -37,3 +37,4 @@ create or replace TRIGGER  "INSERT_ROLE"
 ## Ref
 
 - https://oracle-base.com/articles/misc/with-clause
+- https://docs.oracle.com/cd/E11882_01/server.112/e41084/functions089.htm#SQLRF30030
