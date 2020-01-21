@@ -33,3 +33,7 @@ create or replace TRIGGER  "INSERT_ROLE"
     
 #  dbms_output.put_line
     SET SERVEROUTPUT ON
+
+## Ref
+
+- https://oracle-base.com/articles/misc/with-clause
