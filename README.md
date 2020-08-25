@@ -4,6 +4,16 @@
 
 SELECT * FROM V$INSTANCE
 
+## ACID properties
+
+- ### A- Atomicity
+
+- ### C- Consistency
+
+- ### I- Isolation
+
+- ### D-Durability
+
 # Tricker Aotu Generate ID For v11g
 
 create or replace TRIGGER  "INSERT_ROLE"
