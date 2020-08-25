@@ -77,7 +77,7 @@ create or replace TRIGGER  "INSERT_ROLE"
     CONNECT BY PRIOR emp_id = manager_id
     ORDER SIBLINGS BY emp_id;
     
-#### Self Join    
+#### Self Join (Join ตัวเอง)   
     
 
 ## Ref
