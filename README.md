@@ -1,8 +1,6 @@
 # Oracle-Document
 
-#ตรวจสอบเวอร์ชันของ Orracle
 
-SELECT * FROM V$INSTANCE
 
 ## ACID properties
 
@@ -14,9 +12,7 @@ SELECT * FROM V$INSTANCE
 
 - ### D-Durability
 
-# Tricker Aotu Generate ID For v11g
-
-create or replace TRIGGER  "INSERT_ROLE"
+#### create or replace TRIGGER  "INSERT_ROLE" (Aotu Generate ID V11g )
 
     BEFORE INSERT ON ROLE
     FOR EACH ROW
@@ -29,7 +25,7 @@ create or replace TRIGGER  "INSERT_ROLE"
       :new.ROLE_ID := role_id;
     END;
     
- # Create Sequence Generate ID
+#### Create Sequence Generate ID
     
     CREATE SEQUENCE supplier_seq
         MINVALUE 1
@@ -37,11 +33,15 @@ create or replace TRIGGER  "INSERT_ROLE"
         INCREMENT BY 1
         CACHE 20;
 
-# Get All Sequence 
+#### ตรวจสอบเวอร์ชันของ Orracle
+
+    SELECT * FROM V$INSTANCE
+
+#### Get All Sequence 
 
     SELECT * FROM dba_sequences WHERE sequence_owner = 'ORGANIZATION';
     
-#  dbms_output.put_line
+####  dbms_output.put_line
     SET SERVEROUTPUT ON
 
 #### Default Driver Class
@@ -61,7 +61,7 @@ create or replace TRIGGER  "INSERT_ROLE"
     (protocol=tcp)(port=1521))(connect_data=(sid=ORCL)))
     jdbc:oracle:thin:@ML
 
-### Hierarchical Queries
+#### Hierarchical Queries
 
 <p align="center">
     <img width="50%" src="https://user-images.githubusercontent.com/15135199/86520737-094fdf00-be72-11ea-9b08-c2e5ea991e2e.png">
