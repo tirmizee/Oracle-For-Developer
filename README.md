@@ -1,16 +1,6 @@
 # Oracle-Document
 
-
-
-## ACID properties
-
-- ### A- Atomicity
-
-- ### C- Consistency
-
-- ### I- Isolation
-
-- ### D-Durability
+## Scheme
 
 #### create or replace TRIGGER  "INSERT_ROLE" (Aotu Generate ID V11g )
 
