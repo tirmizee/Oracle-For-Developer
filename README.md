@@ -15,10 +15,7 @@
 
     oracle.jdbc.OracleDriver
     
-#### JDBC URL Format
 
-    jdbc:oracle:thin://<host>:<port>/<service><br> jdbc:oracle:thin:<host>:<port>:<SID><br> 
-    jdbc:oracle:thin:<TNSName> (from 10.2.0.1.0)
 
 
 
