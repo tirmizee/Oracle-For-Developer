@@ -5,3 +5,7 @@
     and OBJECT_NAME=upper('&TABLE_NAME');
 
     alter session kill session 'sid,serial#' immediate;
+
+### Reference
+
+- https://orahow.com/find-and-remove-table-lock-in-oracle/
